@@ -7,34 +7,37 @@ Este é um aplicativo para gerenciar informações sobre carros elétricos  no q
 O aplicativo foi construído com as seguintes tecnologias e componentes:
 
 - * Retrofit: É uma biblioteca para Android que facilita o consumo de serviços web RESTful. Retrofit simplifica muito o processo de fazer solicitações de rede em aplicativos Android, tornando mais fácil recuperar e enviar dados para uma API web.
+    
 
 - * GsonConverterFactory (do Retrofit): GsonConverterFactory é uma classe do Retrofit que converte automaticamente objetos Java para JSON e vice-versa. Essa conversão é usada para processar os dados JSON recebidos das solicitações da API web.
+    
 
 - * ViewPager2 (do AndroidX): ViewPager2 é uma versão atualizada do ViewPager original, que é usada para criar interfaces de usuário com abas deslizantes. Ele oferece melhorias de desempenho e suporte para layouts verticais, além de outras melhorias em comparação com o ViewPager original.
+    
 
 - * RecyclerView (do AndroidX): RecyclerView é uma biblioteca de suporte que oferece uma maneira mais avançada e flexível de exibir listas de dados. Ele é usado para exibir a lista de carros elétricos e a lista de favoritos dentro do aplicativo.
+    
 
 - * AsyncTask (do Android): AsyncTask é uma classe no Android que permite executar operações longas em segundo plano e, em seguida, atualizar a interface do usuário na thread principal. É usado principalmente para tarefas como o cálculo de autonomia, onde é necessário evitar bloquear a interface do usuário durante o processamento.
+    
 
 ## Recursos Principais
 
- -* Cadastro e Visualização de Carros Elétricos: Os usuários podem cadastrar novos carros elétricos no sistema, fornecendo informações como preço, potência, autonomia da bateria, tempo de recarga e URL de foto. Eles podem visualizar uma lista de carros elétricos disponíveis, tanto online (através de uma API) quanto localmente (salva no banco de dados do aplicativo).
+- * Cadastro e Visualização de Carros Elétricos: Os usuários podem cadastrar novos carros elétricos no sistema, fornecendo informações como preço, potência, autonomia da bateria, tempo de recarga e URL de foto. Eles podem visualizar uma lista de carros elétricos disponíveis, tanto online (através de uma API) quanto localmente (salva no banco de dados do aplicativo).
  
--* Cálculo de Autonomia:
+- * Cálculo de Autonomia:
+    O aplicativo oferece uma funcionalidade para calcular a autonomia de um carro elétrico com base nos quilômetros percorridos e no preço do kWh. Gerenciamento de Favoritos.
 
-O aplicativo oferece uma funcionalidade para calcular a autonomia de um carro elétrico com base nos quilômetros percorridos e no preço do kWh.
-Gerenciamento de Favoritos.
-
- -* Os usuários podem marcar carros como favoritos, armazenando essas informações localmente no aplicativo para referência futura..
+- * Os usuários podem marcar carros como favoritos, armazenando essas informações localmente no aplicativo para referência futura.
  
--* Interface Intuitiva com Abas Deslizantes:
- O aplicativo utiliza ViewPager2 e Fragments para criar uma interface com abas deslizantes, permitindo que os usuários naveguem facilmente entre diferentes telas, como a lista de carros e a lista de favoritos.
+- * Interface Intuitiva com Abas Deslizantes:
+    O aplicativo utiliza ViewPager2 e Fragments para criar uma interface com abas deslizantes, permitindo que os usuários naveguem facilmente entre diferentes   telas, como a lista de carros e a lista de favoritos.
  
--* Conexão com API Externa (Retrofit):
+- * Conexão com API Externa (Retrofit):
  O aplicativo se conecta a uma API externa para obter informações sobre carros elétricos, permitindo aos usuários acessar uma ampla gama de modelos e dados.
  
--* Banco de Dados Local (SQLite):
-Utiliza o SQLite como banco de dados local para armazenar informações sobre carros elétricos cadastrados e favoritos dos usuários, garantindo acesso rápido e offline a esses dados.
+- *  Banco de Dados Local (SQLite):
+     Utiliza o SQLite como banco de dados local para armazenar informações sobre carros elétricos cadastrados e favoritos dos usuários, garantindo acesso rápido e   offline a esses dados.
 
 ## Como Executar o Aplicativo
 
@@ -48,9 +51,6 @@ Sinta-se à vontade para explorar e contribuir para o projeto. Se tiver alguma d
 
 Esses são os principais recursos deste aplicativo, que visam fornecer aos usuários uma experiência completa e informativa sobre carros elétricos, além de ferramentas úteis para ajudá-los em suas decisões de compra e utilização. 
 
-
-### TODO
-- Melhorar estilização do app.
 
 ## Author
 Taís Porto Eleutério (follow me on [Linkedin](https://www.linkedin.com/in/taisporto/))
